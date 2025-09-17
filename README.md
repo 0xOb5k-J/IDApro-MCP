@@ -3,7 +3,7 @@
 [![IDA Pro](https://img.shields.io/badge/IDA%20Pro-9.0+-blue.svg)](https://www.hex-rays.com/products/ida/)
 [![Python](https://img.shields.io/badge/Python-3.8+-green.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/Version-3.2.0%20FINAL-red.svg)]()
+[![Version](https://img.shields.io/badge/Version-1.0.0-red.svg)]()
 
 > **Advanced Model Context Protocol Server for IDA Pro 9.0 with 55+ Analysis Tools**
 
