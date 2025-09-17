@@ -2,18 +2,15 @@
 IDA Pro MCP Server - Ultimate Edition v3.2 FINAL
 Advanced Model Context Protocol Server for IDA Pro 9.0
 Author: 0xOb5k-J
-Date: 2025-09-04
-Version: 3.2.0 FINAL
 
 Features:
-- 55+ analysis tools (ALL WORKING)
+- 55+ analysis tools
 - Advanced caching system
 - Batch operations support
 - Pattern recognition
 - Automatic vulnerability detection
 - Performance optimization
 - Real-time monitoring
-- NO IMPORT ERRORS - GUARANTEED
 """
 
 import glob
