@@ -1,7 +1,7 @@
 """
-IDA Pro MCP Server - Ultimate Edition v3.2 FINAL
+IDA Pro MCP Server - Ultimate Edition
 Advanced Model Context Protocol Server for IDA Pro 9.0
-Author: 0xOb5k-J
+Author: Jakkaraju Varshith
 
 Features:
 - 55+ analysis tools
@@ -967,7 +967,7 @@ class UltimateServerPlugin(ida_idaapi.plugin_t):
     """IDA Pro Ultimate MCP Server Plugin - FINAL"""
     
     flags = ida_idaapi.PLUGIN_FIX | ida_idaapi.PLUGIN_HIDE
-    comment = "Ultimate MCP Server - 55+ Tools - No Errors"
+    comment = "Ultimate MCP Server - 55+ Tools"
     help = "Advanced binary analysis via MCP"
     wanted_name = "IDA MCP Ultimate"
     wanted_hotkey = "Ctrl+Alt+M"
@@ -976,8 +976,8 @@ class UltimateServerPlugin(ida_idaapi.plugin_t):
         """Initialize plugin"""
         try:
             print(f"\n{'='*60}")
-            print(f"IDA Pro Ultimate MCP Server v3.2.0 FINAL")
-            print(f"55+ Analysis Tools - Error-Free Edition")
+            print(f"IDA Pro Ultimate MCP Server")
+            print(f"55+ Analysis Tools")
             print(f"{'='*60}")
             
             if not HAS_MCP:
