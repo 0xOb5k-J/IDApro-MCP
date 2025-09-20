@@ -96,6 +96,11 @@ A comprehensive binary analysis toolkit that bridges IDA Pro with modern AI assi
 # Install MCP dependencies
 pip install mcp starlette uvicorn
 ```
+or
+```bash
+cd IDApro-MCP
+pip3 install -r requirements.txt
+```
 
 ### Setup
 1. **Clone the repository:**
@@ -117,6 +122,33 @@ cp ida-mcp-server-ultimate.py "$IDADIR/plugins/"
    - The plugin auto-loads on startup
    - Server runs on port 3000 by default
    - Use hotkey `Ctrl+Alt+M` for quick access
+
+## 🔧 MCP Client Configuration 
+
+### Claude Configuration
+```python
+{
+  "mcpServers": {
+    "IDAPro": {
+      "url": "http://127.0.0.1:3000/sse",
+      "type": "sse"
+    }
+  }
+}
+```
+
+### VSCode Configuration
+```python
+{
+  "servers": {
+    "IDAPro": {
+      "url": "http://127.0.0.1:3000/sse",
+      "type": "sse"
+    }
+  }
+}
+```
+
 
 ## 🚦 Usage
 
@@ -190,20 +222,6 @@ The server provides comprehensive performance monitoring:
     "total_misses": 180
   },
   "uptime": 3600.5
-}
-```
-
-## 🔧 Configuration Claude/VScode
-
-### Client Configuration
-```python
-{
-  "mcpServers": {
-    "IDAPro": {
-      "url": "http://127.0.0.1:3000/sse",
-      "type": "sse"
-    }
-  }
 }
 ```
 
